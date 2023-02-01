@@ -34,7 +34,7 @@ MeetUs -> MeetUs(a@a.com): 회의 연결
 수신자를 지정하는 query string이며, {유저정보} 는 Json string로 구성, base64 url safe를 통해 인코딩하여, 추가한다.
 |                |JSON                          |base64 url safe encoded                        |
 |----------------|-------------------------------|-----------------------------|     
-|Quotes          |[a@a.com,b@b.com,c@c.com]            |"W2FAYS5jb20sYkBiLmNvbSxjQGMuY29tXQ"            
+|Quotes          |[a@a.com,b@b.com,c@c.com]            |W2FAYS5jb20sYkBiLmNvbSxjQGMuY29tXQ            
 
 예시) DOMAIN/room/RRRR?pwd=PPPP&**user=W2FAYS5jb20sYkBiLmNvbSxjQGMuY29tXQ**
 
